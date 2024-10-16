@@ -17,6 +17,7 @@ def divide(x, y):
 
 # Streamlit app
 st.title("Simple Calculator")
+st.subheader("Made by Abdul Qayyum")
 
 # User inputs
 num1 = st.number_input("Enter first number", value=0.0)
